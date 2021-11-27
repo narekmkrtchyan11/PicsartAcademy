@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#maincontainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+header{
+    display: flex;
+    align-items: flex-end;
+    width: 1284px;
+    height: 115px;
+    padding: 0px 27px 8px;
+   
+}
+
+.menulinks{
+    text-decoration: none;
+    padding: 56px 8px 8px 30px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4A4A4A;
+}
+
+#row{
+    height: 580px;
+    width: 100%;
+    display: flex;
+    
+}
+
+.leftrow{
+    max-width: 50%;
+    height: 100%;
+    padding: 15%;
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h2div{
+    width: 60%;
+}
+
+.pdiv{
+    width: 60%;
+}
+
+.rightrow{
+    max-width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.h2div h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+    color: #1F1F33;
+    text-align: initial;
+    font-weight: 5;
+    opacity: 0.95;
+    
+}
+
+b{
+    font-weight: bolder;
+    opacity: 1;
+}
+
+.pdiv p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 24px;
+    text-align: initial;
+    line-height: 1.5;
+    color: #1F1F33;
+    font-weight: 10;
+}
+
+.rightrow img{
+    box-shadow: rgb(255 250 217) 110px 0px 0px 12px;
+    
+}
+
+.pdiv button{
+    cursor: pointer;
+    background: #1F1F33;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FCEECA;
+    margin-top: 5%;
+    border-color: #6c757d;
+    font-weight: 400;
+    width: 100px;
+    height: 38px;
+    padding: 4px 12px 6px 18px;
+    text-decoration: none;
+    border: none;
+    transition: 0.2s;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+.pdiv button:hover{
+    opacity: 0.7;
+}
+
+
+#pinkdiv{
+    text-align: center;
+    width: 100%;
+    height: 454px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFDED;
+
+}
+#pinkdiv h2{
+    width: 910px;
+    height: 78px;
+    padding: 78px 0 0;
+    font-family: Museo Sans;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #333333;
+    font-weight: 100;
+}
+
+#pinkdiv p{
+    width: 1000px;
+    height: 84px;
+    font-family: Museo Sans;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+}
+
+#pinkdiv button{
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    color: #6c757d;
+    border-color: #FFFDED;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+#pinkdiv button:hover{
+    background-color: #6c757d;
+    color: white;
+}
+
+#courses h2{
+    text-align: center;
+    font-size: 56px;
+    line-height: 70px;
+    color: #333333;
+    font-weight: 100;
+}
+
+#courses{
+    width: auto;
+    height: 127px;
+    padding: 57px 15px 0;
+}
+
+#imgcontainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1033px;
+    height: auto;
+    box-sizing: border-box;
+    line-height: 1.5;
+    padding-left: 235px;
+}
+
+.imgdiv{
+    width: 488px;
+    height: 408px;
+    padding: 30px 30px 0 30px;
+}
+
+
+.imgdiv img{
+    width: 300px;
+    height: 300px;
+}
+
+#imgcontainer a{
+    text-decoration: none;
+}
+
+#imgcontainer p{
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+#imgcontainer p:hover{
+    border-bottom: 3px solid #007bff;
+}
+
+#first{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+#second{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+#third{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+#fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 260px
+}
+
+.inputdiv{
+    width: 100%;
+    height: 200px;
+    text-align:center;
+}
+
+.inputdiv h2{
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    color: #333333;
+    font-weight: 100;
+}
+
+.inputdiv p{
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+}
+
+input{
+    margin-top: 8px;
+    border-radius: 4px 4px 0 0;
+    padding: 0.375rem 0.75rem;
+    padding-left: 10px;
+    width: 280px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 12px;
+    
+}
+
+.buttondiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.buttondiv button{
+    cursor: pointer;
+    width: 94px;
+    height: 37px;
+    padding: 4px 12px;
+    margin-left: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    background: #4A4A4A;
+    border-radius: 10px;
+    border: none;
+    line-height: 24px;
+    color: #FFDF01;
+}
+
+
+.buttondiv button:hover{
+    opacity: 0.8;
+    color: white;
+}
+
+#footer img{
+    width: 35px;
+    height: 30px;
+    padding-top: 18px;
+}
+#footer{
+    display: flex;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.emaildiv{
+    font-family: Museo Sans;
+    font-size: 26px;
+    padding-top: 1.6%;
+    color: #5E5E5E;
+    text-align: center;
+    width: 30%;
+    height: auto;
+}
+
+.emaildiv p{
+    padding-top: 18px;
+}
+
+.icondiv1{
+    font-family: Museo Sans;
+    font-size: 26px;
+    padding-top: 1.6%;
+    color: #5E5E5E;
+    text-align: center;
+    width: 30%;
+    height: auto;
+}
+
+.icondiv2{
+    font-family: Museo Sans;
+    font-size: 26px;
+    padding-top: 1.6%;
+    color: #5E5E5E;
+    text-align: center;
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
