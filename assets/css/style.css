@@ -55,6 +55,7 @@ header{
     height: 100%;
     border-radius: 50%;
     overflow: hidden;
+    box-shadow: rgb(255 250 217) 110px 0px 0px 12px;
 }
 
 
@@ -85,11 +86,6 @@ b{
     line-height: 1.5;
     color: #1F1F33;
     font-weight: 10;
-}
-
-.rightrow img{
-    box-shadow: rgb(255 250 217) 110px 0px 0px 12px;
-    
 }
 
 .pdiv button{
